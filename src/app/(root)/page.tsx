@@ -1,4 +1,5 @@
 import HeaderBox from "@/components/header-box";
+import RightSidebar from "@/components/right-sidebar";
 import TotalBalanceBox from "@/components/total-balance-box";
 
 const Home = () => {
@@ -20,6 +21,8 @@ const Home = () => {
           />
         </header>
       </div>
+
+      <RightSidebar />
     </section>
   );
 };
