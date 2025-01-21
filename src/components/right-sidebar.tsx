@@ -5,7 +5,7 @@ const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
         <div className="profile-banner" />
 
         <div className="profile">
-          <div className="profile-img"></div>
+          <div className="profile-img">Image</div>
         </div>
       </section>
     </aside>
